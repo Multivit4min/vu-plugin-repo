@@ -4,7 +4,7 @@ import Joi from "joi"
 
 const schema = Joi.object({
   plugins: Joi.array().items(Joi.object({
-    name: Joi.string().required(),
+    name: Joi.string().regex(/^[\w\d]+$/).required(),
     description: Joi.string().required(),
     version: Joi.string().regex(/^\d+\.\d+\.\d+$/).required(),
     repository: Joi.string().required(),

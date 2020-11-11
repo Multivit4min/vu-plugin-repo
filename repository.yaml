@@ -8,4 +8,4 @@ plugins:
     description: "gets battlefield metrics data to prometheus"
     version: "1.0.0"
     repository: "https://github.com/Multivit4min/VeniceRCON-metrics-plugin"
-    commit: "769263a597ed0f4c87e0515bd281d9e5aa7c43e0"
+    commit: "f9ac9dad2d147a7cd3f8f48f85204c8d62fe595e"
